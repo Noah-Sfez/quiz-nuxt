@@ -1,0 +1,60 @@
+{
+    "quiz": {
+        "quizTitle": "Quiz 1",
+        "quizSynopsis": "This is a quiz to test your knowledge of the content covered in the first module.",
+        "questions": [
+        {
+            "question": "What is the capital of France?",
+            "questionType": "text",
+            "answers": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Madrid"
+            ],
+            "correctAnswer": "1",
+            "messageForCorrectAnswer": "Correct answer. Well done!",
+            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "questionType": "text",
+            "answers": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Madrid"
+            ],
+            "correctAnswer": "4",
+            "messageForCorrectAnswer": "Correct answer. Well done!",
+            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        },
+        {
+            "question": "What is the capital of Germany?",
+            "questionType": "text",
+            "answers": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Madrid"
+            ],
+            "correctAnswer": "3",
+            "messageForCorrectAnswer": "Correct answer. Well done!",
+            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        },
+        {
+            "question": "What is the capital of the United Kingdom?",
+            "questionType": "text",
+            "answers": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Madrid"
+            ],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Correct answer. Well done!",
+            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        }
+        ]
+    }
+}
