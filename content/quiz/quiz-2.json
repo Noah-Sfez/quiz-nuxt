@@ -1,60 +1,43 @@
 {
-    "quiz": {
-        "quizTitle": "Quiz 1",
-        "quizSynopsis": "This is a quiz to test your knowledge of the content covered in the first module.",
-        "questions": [
+    "quizTitle": "Programming Basics Quiz",
+    "quizSynopsis": "Test your knowledge of programming basics with this short quiz.",
+    "questions": [
         {
-            "question": "What is the capital of France?",
+            "question": "What does HTML stand for?",
             "questionType": "text",
             "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
+                "Hypertext Markup Language",
+                "Hyperloop Machine Learning",
+                "Hyper Tool Main Link",
+                "High-Level Text Manipulation"
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct answer. HTML stands for Hypertext Markup Language.",
+            "messageForIncorrectAnswer": "Incorrect. HTML is short for Hypertext Markup Language."
         },
         {
-            "question": "What is the capital of Spain?",
+            "question": "Which programming language is primarily used for styling web pages?",
             "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
-            "correctAnswer": "4",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
-        },
-        {
-            "question": "What is the capital of Germany?",
-            "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
+            "answers": ["JavaScript", "HTML", "CSS", "Python"],
             "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct answer. CSS is used for styling web pages.",
+            "messageForIncorrectAnswer": "Incorrect. CSS is the correct answer."
         },
         {
-            "question": "What is the capital of the United Kingdom?",
+            "question": "What is the file extension for JavaScript files?",
             "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
+            "answers": [".java", ".js", ".css", ".html"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct answer. JavaScript files use the .js extension.",
+            "messageForIncorrectAnswer": "Incorrect. The correct file extension is .js."
+        },
+        {
+            "question": "Which of these is a JavaScript framework?",
+            "questionType": "text",
+            "answers": ["Laravel", "Django", "Vue.js", "Flask"],
+            "correctAnswer": "3",
+            "messageForCorrectAnswer": "Correct answer. Vue.js is a popular JavaScript framework.",
+            "messageForIncorrectAnswer": "Incorrect. Vue.js is the correct answer."
         }
-        ]
-    }
+    ]
 }

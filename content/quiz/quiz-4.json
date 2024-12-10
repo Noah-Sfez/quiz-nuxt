@@ -1,60 +1,38 @@
 {
-    "quiz": {
-        "quizTitle": "Quiz 1",
-        "quizSynopsis": "This is a quiz to test your knowledge of the content covered in the first module.",
-        "questions": [
+    "quizTitle": "Science Trivia",
+    "quizSynopsis": "Test your knowledge of science with this fun quiz!",
+    "questions": [
         {
-            "question": "What is the capital of France?",
+            "question": "What is the chemical symbol for water?",
             "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
-            "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
-        },
-        {
-            "question": "What is the capital of Spain?",
-            "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
-            "correctAnswer": "4",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
-        },
-        {
-            "question": "What is the capital of Germany?",
-            "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
-            "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
-        },
-        {
-            "question": "What is the capital of the United Kingdom?",
-            "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
+            "answers": ["HO", "H2O", "O2H", "WO"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct! H2O is the chemical symbol for water.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is H2O."
+        },
+        {
+            "question": "Which planet in our solar system is the hottest?",
+            "questionType": "text",
+            "answers": ["Mercury", "Venus", "Mars", "Jupiter"],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Correct! Venus is the hottest planet due to its thick atmosphere.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is Venus."
+        },
+        {
+            "question": "What gas do plants primarily absorb for photosynthesis?",
+            "questionType": "text",
+            "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Correct! Plants absorb carbon dioxide during photosynthesis.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is Carbon Dioxide."
+        },
+        {
+            "question": "How many bones are there in the human body?",
+            "questionType": "text",
+            "answers": ["206", "195", "210", "180"],
+            "correctAnswer": "1",
+            "messageForCorrectAnswer": "Correct! An adult human has 206 bones.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is 206."
         }
-        ]
-    }
+    ]
 }

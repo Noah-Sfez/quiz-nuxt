@@ -1,60 +1,48 @@
 {
-    "quiz": {
-        "quizTitle": "Quiz 1",
-        "quizSynopsis": "This is a quiz to test your knowledge of the content covered in the first module.",
-        "questions": [
+    "quizTitle": "General Knowledge Quiz",
+    "quizSynopsis": "Challenge yourself with these general knowledge questions!",
+    "questions": [
         {
-            "question": "What is the capital of France?",
+            "question": "Which planet is known as the Red Planet?",
+            "questionType": "text",
+            "answers": ["Earth", "Mars", "Jupiter", "Venus"],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Correct! Mars is called the Red Planet due to its reddish appearance.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is Mars."
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
             "questionType": "text",
             "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
+                "William Shakespeare",
+                "Mark Twain",
+                "Jane Austen",
+                "Charles Dickens"
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct! William Shakespeare wrote 'Romeo and Juliet'.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is William Shakespeare."
         },
         {
-            "question": "What is the capital of Spain?",
+            "question": "What is the capital of Japan?",
             "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
+            "answers": ["Beijing", "Seoul", "Bangkok", "Tokyo"],
             "correctAnswer": "4",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct! Tokyo is the capital of Japan.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is Tokyo."
         },
         {
-            "question": "What is the capital of Germany?",
+            "question": "What is the largest mammal in the world?",
             "questionType": "text",
             "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
-            ],
-            "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
-        },
-        {
-            "question": "What is the capital of the United Kingdom?",
-            "questionType": "text",
-            "answers": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
+                "Elephant",
+                "Blue Whale",
+                "Giraffe",
+                "Great White Shark"
             ],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. Well done!",
-            "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+            "messageForCorrectAnswer": "Correct! The Blue Whale is the largest mammal on Earth.",
+            "messageForIncorrectAnswer": "Incorrect. The correct answer is Blue Whale."
         }
-        ]
-    }
+    ]
 }
