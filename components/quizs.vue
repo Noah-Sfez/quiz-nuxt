@@ -1,14 +1,5 @@
 <script setup>
-import { defineProps } from 'vue'
-
-const props = defineProps({
-  quizs: {
-    type: Array,
-    required: true
-  }
-})
 const quizs = await queryContent("quiz").find();
-console.log(quizs)
 </script>
 
 <template>

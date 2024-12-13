@@ -4,45 +4,33 @@
     "questions": [
         {
             "question": "Which planet is known as the Red Planet?",
-            "questionType": "text",
             "answers": ["Earth", "Mars", "Jupiter", "Venus"],
-            "correctAnswer": 2,
-            "messageForCorrectAnswer": "Correct! Mars is called the Red Planet due to its reddish appearance."
-            
+            "correctAnswer": 2
         },
         {
             "question": "Who wrote the play 'Romeo and Juliet'?",
-            "questionType": "text",
             "answers": [
                 "William Shakespeare",
                 "Mark Twain",
                 "Jane Austen",
                 "Charles Dickens"
             ],
-            "correctAnswer": 1,
-            "messageForCorrectAnswer": "Correct! William Shakespeare wrote 'Romeo and Juliet'."
-            
+            "correctAnswer": 1
         },
         {
             "question": "What is the capital of Japan?",
-            "questionType": "text",
             "answers": ["Beijing", "Seoul", "Bangkok", "Tokyo"],
-            "correctAnswer": 4,
-            "messageForCorrectAnswer": "Correct! Tokyo is the capital of Japan."
-            
+            "correctAnswer": 4
         },
         {
             "question": "What is the largest mammal in the world?",
-            "questionType": "text",
             "answers": [
                 "Elephant",
                 "Blue Whale",
                 "Giraffe",
                 "Great White Shark"
             ],
-            "correctAnswer": 2,
-            "messageForCorrectAnswer": "Correct! The Blue Whale is the largest mammal on Earth."
-            
+            "correctAnswer": 2
         }
     ]
 }

@@ -4,55 +4,43 @@
     "questions": [
     {
         "question": "What is the capital of France?",
-        "questionType": "text",
         "answers": [
         "Paris",
         "London",
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": 1,
-        "messageForCorrectAnswer": "Correct answer. Well done!"
-        
+        "correctAnswer": 1
     },
     {
         "question": "What is the capital of Spain?",
-        "questionType": "text",
         "answers": [
         "Paris",
         "London",
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": 4,
-        "messageForCorrectAnswer": "Correct answer. Well done!"
-        
+        "correctAnswer": 4
     },
     {
         "question": "What is the capital of Germany?",
-        "questionType": "text",
         "answers": [
         "Paris",
         "London",
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": 3,
-        "messageForCorrectAnswer": "Correct answer. Well done!"
-        
+        "correctAnswer": 3
     },
     {
         "question": "What is the capital of the United Kingdom?",
-        "questionType": "text",
         "answers": [
         "Paris",
         "London",
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": 2,
-        "messageForCorrectAnswer": "Correct answer. Well done!"
-        
+        "correctAnswer": 2
     }
     ]
 }

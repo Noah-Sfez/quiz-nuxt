@@ -5,7 +5,6 @@ const props = defineProps({
     required: true
   }
 })
-
 const quiz = inject('quiz')
 const { currentQuestionIndex, nextQuestion, selectedAnswersIndex, checkAnswer } = quiz
 </script>
