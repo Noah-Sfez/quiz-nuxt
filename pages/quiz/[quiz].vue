@@ -1,5 +1,4 @@
 <script setup>
-
 const { params } = useRoute()
 const quizData = ref(null)
 
@@ -11,13 +10,13 @@ provide('quiz', quiz)
 
 <template>
   <NuxtLayout name="header">
-    <article class="flex-1 flex flex-col gap-5 max-w-xl mx-auto items-center text-center">
-      <NuxtLink to="/" class="hover:underline">Autre quiz</NuxtLink>
-      <h1 v-if="quizData && quizData.quizTitle" class="underline text-6xl">{{ quizData.quizTitle }}</h1>
-      <div v-if="quiz.currentQuestionIndex.value < quiz.questions.length ">
+    <article class="flex-1 flex flex-col gap-8 max-w-2xl mx-auto items-center text-center py-10 px-5">
+      <NuxtLink to="/" class="hover:underline text-blue-500 text-lg">Autre quiz</NuxtLink>
+      <h1 v-if="quizData && quizData.quizTitle" class="underline text-4xl font-bold text-gray-800">{{ quizData.quizTitle }}</h1>
+      <div v-if="quiz.currentQuestionIndex.value < quiz.questions.length" class="w-full mt-5">
         <QuestionOne :question="quiz.questions[quiz.currentQuestionIndex.value]" />
       </div>
-      <div v-else>
+      <div v-else class="w-full mt-5">
         <Score />
       </div>
     </article>
