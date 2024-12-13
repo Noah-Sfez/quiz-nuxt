@@ -12,8 +12,8 @@
         "Madrid"
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "Correct answer. Well done!",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        "messageForCorrectAnswer": "Correct answer. Well done!"
+        
     },
     {
         "question": "What is the capital of Spain?",
@@ -25,8 +25,8 @@
         "Madrid"
         ],
         "correctAnswer": "4",
-        "messageForCorrectAnswer": "Correct answer. Well done!",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        "messageForCorrectAnswer": "Correct answer. Well done!"
+        
     },
     {
         "question": "What is the capital of Germany?",
@@ -38,8 +38,8 @@
         "Madrid"
         ],
         "correctAnswer": "3",
-        "messageForCorrectAnswer": "Correct answer. Well done!",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        "messageForCorrectAnswer": "Correct answer. Well done!"
+        
     },
     {
         "question": "What is the capital of the United Kingdom?",
@@ -51,8 +51,8 @@
         "Madrid"
         ],
         "correctAnswer": "2",
-        "messageForCorrectAnswer": "Correct answer. Well done!",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again."
+        "messageForCorrectAnswer": "Correct answer. Well done!"
+        
     }
     ]
 }

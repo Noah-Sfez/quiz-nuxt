@@ -7,32 +7,32 @@
             "questionType": "text",
             "answers": ["HO", "H2O", "O2H", "WO"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct! H2O is the chemical symbol for water.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is H2O."
+            "messageForCorrectAnswer": "Correct! H2O is the chemical symbol for water."
+            
         },
         {
             "question": "Which planet in our solar system is the hottest?",
             "questionType": "text",
             "answers": ["Mercury", "Venus", "Mars", "Jupiter"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct! Venus is the hottest planet due to its thick atmosphere.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is Venus."
+            "messageForCorrectAnswer": "Correct! Venus is the hottest planet due to its thick atmosphere."
+            
         },
         {
             "question": "What gas do plants primarily absorb for photosynthesis?",
             "questionType": "text",
             "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct! Plants absorb carbon dioxide during photosynthesis.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is Carbon Dioxide."
+            "messageForCorrectAnswer": "Correct! Plants absorb carbon dioxide during photosynthesis."
+            
         },
         {
             "question": "How many bones are there in the human body?",
             "questionType": "text",
             "answers": ["206", "195", "210", "180"],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct! An adult human has 206 bones.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is 206."
+            "messageForCorrectAnswer": "Correct! An adult human has 206 bones."
+            
         }
     ]
 }

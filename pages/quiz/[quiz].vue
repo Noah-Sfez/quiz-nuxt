@@ -1,21 +1,21 @@
 <script setup>
+
 const { params } = useRoute()
+const quizData = ref(null)
 
-const data = await queryContent(`quiz/${params.quiz}`).findOne()
-console.log(data)
-const quiz = useQuiz(data)
+const response = await queryContent(`quiz/${params.quiz}`).findOne()
+quizData.value = response
+const quiz = useQuiz(quizData.value)
+provide('quiz', quiz)
 
-provide('quiz', quiz)   
 </script>
 
 <template>
   <NuxtLayout name="header">
     <article class="flex-1 flex flex-col gap-5 max-w-xl mx-auto items-center text-center">
       <NuxtLink to="/" class="hover:underline">Retour</NuxtLink>
-      <h1 v-if="quiz && quiz.quizTitle" class="underline text-6xl">{{ quiz.quizTitle }}</h1>
-      <ButtonStart @start="startQuiz" v-if="!showQuestionOne" />
-      <QuestionOne :question="quiz.questions[0]"/>
-      
+      <h1 v-if="quizData && quizData.quizTitle" class="underline text-6xl">{{ quizData.quizTitle }}</h1>
+      <QuestionOne :question="quiz.questions[quiz.currentQuestionIndex.value]" />
     </article>
   </NuxtLayout>
 </template>

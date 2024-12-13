@@ -7,8 +7,8 @@
             "questionType": "text",
             "answers": ["Earth", "Mars", "Jupiter", "Venus"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct! Mars is called the Red Planet due to its reddish appearance.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is Mars."
+            "messageForCorrectAnswer": "Correct! Mars is called the Red Planet due to its reddish appearance."
+            
         },
         {
             "question": "Who wrote the play 'Romeo and Juliet'?",
@@ -20,16 +20,16 @@
                 "Charles Dickens"
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct! William Shakespeare wrote 'Romeo and Juliet'.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is William Shakespeare."
+            "messageForCorrectAnswer": "Correct! William Shakespeare wrote 'Romeo and Juliet'."
+            
         },
         {
             "question": "What is the capital of Japan?",
             "questionType": "text",
             "answers": ["Beijing", "Seoul", "Bangkok", "Tokyo"],
             "correctAnswer": "4",
-            "messageForCorrectAnswer": "Correct! Tokyo is the capital of Japan.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is Tokyo."
+            "messageForCorrectAnswer": "Correct! Tokyo is the capital of Japan."
+            
         },
         {
             "question": "What is the largest mammal in the world?",
@@ -41,8 +41,8 @@
                 "Great White Shark"
             ],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct! The Blue Whale is the largest mammal on Earth.",
-            "messageForIncorrectAnswer": "Incorrect. The correct answer is Blue Whale."
+            "messageForCorrectAnswer": "Correct! The Blue Whale is the largest mammal on Earth."
+            
         }
     ]
 }

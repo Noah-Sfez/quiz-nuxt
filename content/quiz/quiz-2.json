@@ -12,32 +12,32 @@
                 "High-Level Text Manipulation"
             ],
             "correctAnswer": "1",
-            "messageForCorrectAnswer": "Correct answer. HTML stands for Hypertext Markup Language.",
-            "messageForIncorrectAnswer": "Incorrect. HTML is short for Hypertext Markup Language."
+            "messageForCorrectAnswer": "Correct answer. HTML stands for Hypertext Markup Language."
+           
         },
         {
             "question": "Which programming language is primarily used for styling web pages?",
             "questionType": "text",
             "answers": ["JavaScript", "HTML", "CSS", "Python"],
             "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. CSS is used for styling web pages.",
-            "messageForIncorrectAnswer": "Incorrect. CSS is the correct answer."
+            "messageForCorrectAnswer": "Correct answer. CSS is used for styling web pages."
+            
         },
         {
             "question": "What is the file extension for JavaScript files?",
             "questionType": "text",
             "answers": [".java", ".js", ".css", ".html"],
             "correctAnswer": "2",
-            "messageForCorrectAnswer": "Correct answer. JavaScript files use the .js extension.",
-            "messageForIncorrectAnswer": "Incorrect. The correct file extension is .js."
+            "messageForCorrectAnswer": "Correct answer. JavaScript files use the .js extension."
+            
         },
         {
             "question": "Which of these is a JavaScript framework?",
             "questionType": "text",
             "answers": ["Laravel", "Django", "Vue.js", "Flask"],
             "correctAnswer": "3",
-            "messageForCorrectAnswer": "Correct answer. Vue.js is a popular JavaScript framework.",
-            "messageForIncorrectAnswer": "Incorrect. Vue.js is the correct answer."
+            "messageForCorrectAnswer": "Correct answer. Vue.js is a popular JavaScript framework."
+            
         }
     ]
 }
