@@ -3,19 +3,31 @@ export default function useQuiz(quiz) {
     const currentQuestionIndex = ref(0);
 
     const nextQuestion = () => {
-        if (currentQuestionIndex.value < quiz.questions.length - 1) {
-            currentQuestionIndex.value += 1;
+        currentQuestionIndex.value += 1;
+    };
+    
+    const selectedAnswerIndex = ref(1);
+
+    const checkAnswer = (selectedAnswerIndex) => {
+        const currentQuestion = quiz.questions[currentQuestionIndex.value];
+        if (selectedAnswerIndex === currentQuestion.correctAnswer - 1) {
+            score.value += 1;
+            console.log("Correct");
+            console.log(score.value);
+            nextQuestion();
+        } else {
+            console.log("Incorrect");
+            console.log(score.value);
+            nextQuestion();
         }
     };
 
-    const checkAnswer = () => {
-        const currentQuestion = quiz.questions[currentQuestionIndex.value];
-        if (selectedAnswerIndex.value === currentQuestion.correctAnswer) {
-            score.value += 1;
-        }
-    }
-
-    const selectedAnswerIndex = ref(null);
+    const resetQuiz = () => {
+        score.value = 0;
+        currentQuestionIndex.value = 0;
+        selectedAnswersIndex.value = null;
+    };
+    
 
     return {
         quiz,
@@ -25,5 +37,6 @@ export default function useQuiz(quiz) {
         nextQuestion,
         selectedAnswerIndex,
         checkAnswer,
+        resetQuiz
     };
 }

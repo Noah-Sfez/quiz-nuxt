@@ -11,7 +11,7 @@
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": "1",
+        "correctAnswer": 1,
         "messageForCorrectAnswer": "Correct answer. Well done!"
         
     },
@@ -24,7 +24,7 @@
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": "4",
+        "correctAnswer": 4,
         "messageForCorrectAnswer": "Correct answer. Well done!"
         
     },
@@ -37,7 +37,7 @@
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": "3",
+        "correctAnswer": 3,
         "messageForCorrectAnswer": "Correct answer. Well done!"
         
     },
@@ -50,7 +50,7 @@
         "Berlin",
         "Madrid"
         ],
-        "correctAnswer": "2",
+        "correctAnswer": 2,
         "messageForCorrectAnswer": "Correct answer. Well done!"
         
     }
